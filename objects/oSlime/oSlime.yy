@@ -1,0 +1,46 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oSlime",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oEnemy_Wolf","path":"objects/oEnemy_Wolf/oEnemy_Wolf.yy",},"propertyId":{"name":"hsp","path":"objects/oEnemy_Wolf/oEnemy_Wolf.yy",},"value":"walksp",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oEnemy_Wolf","path":"objects/oEnemy_Wolf/oEnemy_Wolf.yy",},"propertyId":{"name":"hsp","path":"objects/oEnemy_Wolf/oEnemy_Wolf.yy",},"value":"walksp",},
+  ],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy",
+  },
+  "parentObjectId": {
+    "name": "oEnemy_Wolf",
+    "path": "objects/oEnemy_Wolf/oEnemy_Wolf.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"countdownrate","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"90","varType":0,},
+  ],
+  "solid": false,
+  "spriteId": {
+    "name": "sSlime_Idle",
+    "path": "sprites/sSlime_Idle/sSlime_Idle.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}
